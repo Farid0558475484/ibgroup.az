@@ -151,6 +151,12 @@ header {
     text-align: center;
   }
 }
+@media only screen and (max-width: 1200px) {
+  #header-top,
+#header-main {
+    display: none;
+  }
+}
 .tech-innovation {
   background-color: black;
 }
@@ -169,4 +175,47 @@ header {
 .structured img {
   width: 100%;
   padding: 20px;
+}
+
+.team {
+  background-color: black;
+  padding: 100px 0;
+}
+.team .row {
+  padding: 20px;
+}
+.team h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.team .pre-title {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.team img {
+  width: 100%;
+  border-radius: 10px;
+}
+.team .team-icon {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 10px;
+}
+.team .team-icon li a {
+  background-color: rgba(5, 131, 131, 0.3764705882);
+  border-radius: 50%;
+  color: #058283;
+}
+.team .team-icon li a:hover {
+  background-color: rgba(13, 219, 219, 0.3764705882);
+}
+.team .team-block {
+  color: white;
+  padding: 0 20px;
+}
+.team .img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

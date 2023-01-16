@@ -164,6 +164,13 @@ header {
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  #header-top,
+  #header-main {
+    display: none;
+  }
+}
+
 .tech-innovation {
   background-color: black;
 }
@@ -182,5 +189,54 @@ header {
   img {
     width: 100%;
     padding: 20px;
+  }
+}
+
+.team {
+  background-color: black;
+  padding: 100px 0;
+
+  .row {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+
+  .pre-title {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .team-icon {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 10px;
+    li {
+      a {
+        background-color: #05838360;
+        border-radius: 50%;
+        color: #058283;
+        &:hover {
+          background-color: #0ddbdb60;
+        }
+      }
+    }
+  }
+  .team-block {
+    color: white;
+    padding: 0 20px;
+  }
+  .img-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
