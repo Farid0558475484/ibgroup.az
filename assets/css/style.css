@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row {
+  --bs-gutter-x: 0 !important;
+  --bs-gutter-y: 0 !important;
+}
+
+header {
+  position: relative;
+}
+
+.pre-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #058283;
+}
+
+.featured {
+  color: #058283;
+}
+
+#header-top {
+  background-color: #21333e;
+  font-size: 1rem;
+}
+#header-top p {
+  cursor: default;
+  opacity: 0.5;
+}
+#header-top i {
+  opacity: 0.8;
+}
+#header-top .header-open-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 10px;
+}
+#header-top .header-open-group p {
+  margin: 1rem 0;
+}
+#header-top .header-info {
+  display: flex;
+  color: white;
+}
+#header-top .header-info ul {
+  display: flex;
+  margin: 0;
+}
+#header-top .header-info li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#header-top .header-info li p {
+  margin: 1rem 0;
+}
+#header-top .header-icon ul {
+  gap: 30px;
+  margin: 1rem 0;
+}
+
+#header-main {
+  position: fixed;
+  width: 100%;
+  top: 50px;
+  z-index: 1;
+}
+#header-main .navbar .nav {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: baseline;
+}
+#header-main .navbar .nav .navbar-btn {
+  position: relative;
+  z-index: 2;
+  padding: 10px 25px;
+  background-color: #058283;
+  border-radius: 4px;
+  border: 1px solid #058283;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+#header-main .navbar .nav .navbar-btn:hover {
+  background-color: #068e8e;
+  transition: all 0.3s ease-in-out;
+}
+#header-main .navbar .nav li {
+  display: flex;
+  gap: 20px;
+  color: white;
+}
+
+.home-slider .container-fluid {
+  padding: 0;
+}
+.home-slider img {
+  filter: brightness(0.5);
+}
+
+.the-company {
+  margin: 100px 0;
+  margin-top: 120px;
+}
+.the-company i {
+  color: #058283;
+}
+.the-company .the-company-block {
+  width: 73%;
+  margin: 0 auto;
+}
+.the-company .pre-title {
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #058283;
+}
+.the-company h2 {
+  margin: 1.5rem 0;
+  line-height: 1.2;
+  font-size: 3rem;
+  font-weight: 800;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+.the-company h2 .featured {
+  color: #058283;
+}
+.the-company h4 {
+  padding: 40px 0 20px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+@media only screen and (max-width: 676px) {
+  .the-company .the-company-block {
+    text-align: center;
+    width: 100%;
+  }
+  .the-company .company-block {
+    text-align: center;
+  }
+}
+.tech-innovation {
+  background-color: black;
+}
+
+.structured {
+  padding: 100px 0;
+  background-color: #eef4ed;
+}
+.structured h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.structured .pre-title {
+  margin-top: 100px;
+}
+.structured img {
+  width: 100%;
+  padding: 20px;
+}
