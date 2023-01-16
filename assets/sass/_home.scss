@@ -20,6 +20,12 @@ header {
 .featured {
   color: #058283;
 }
+h2,
+h4,
+p,
+span {
+  cursor: default;
+}
 
 #header-top {
   background-color: #21333e;
@@ -238,5 +244,39 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+.our-businnes {
+  padding: 120px 0;
+  h2 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  a {
+    padding: 5px 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #058283;
+    &:hover {
+      color: #058283;
+    }
+  }
+  .outline-button {
+    border: #058283 1px solid;
+    padding: 5px 30px;
+    &:hover {
+      background-color: #058283;
+      color: white;
+    }
+  }
+  ul li {
+    padding: 10px 0;
+  }
+}
+
+@media only screen and (max-width: 484px) {
+  .businnes-block {
+    text-align: center;
   }
 }
