@@ -76,7 +76,7 @@ span {
 }
 
 #header-main {
-
+z-index: 99999;
 
   .header-main-logo{
     padding-top: 10px;
@@ -84,7 +84,6 @@ span {
   position: fixed;
   width: 100%;
   top: 55px;
-  z-index: 1;
 
   .navbar {
     .nav {
