@@ -1,0 +1,47 @@
+#single {
+  padding: 120px 0;
+  h2 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .gallerei-img {
+    padding: 20px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .social {
+    li {
+      background-color: rgba(5, 131, 131, 0.4392156863);
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &:hover {
+        background-color: #058283;
+      }
+    }
+    a {
+      color: #058283;
+      &:hover {
+        color: #fff;
+      }
+    }
+  }
+
+  .form-control {
+    width: 60%;
+  }
+  button {
+    background-color: #058283;
+    color: #fff;
+    &:hover {
+        background-color: rgba(5, 131, 131, 0.4392156863);
+      color: #058283;
+    }
+  }
+}

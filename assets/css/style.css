@@ -83,6 +83,10 @@ span {
 #header-main .header-main-logo {
   padding-top: 10px;
 }
+#header-main .navbar {
+  padding-top: 1.5rem;
+  padding-bottom: 0.5rem;
+}
 #header-main .navbar .nav {
   display: flex;
   gap: 40px;
@@ -600,4 +604,89 @@ span {
 }
 #most-viewed button:hover {
   background-color: rgba(5, 131, 131, 0.662745098);
+}
+
+#single {
+  padding: 120px 0;
+}
+#single h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+#single .gallerei-img {
+  padding: 20px;
+}
+#single img {
+  width: 100%;
+  height: auto;
+}
+#single .social li {
+  background-color: rgba(5, 131, 131, 0.4392156863);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#single .social li:hover {
+  background-color: #058283;
+}
+#single .social a {
+  color: #058283;
+}
+#single .social a:hover {
+  color: #fff;
+}
+#single .form-control {
+  width: 60%;
+}
+#single button {
+  background-color: #058283;
+  color: #fff;
+}
+#single button:hover {
+  background-color: rgba(5, 131, 131, 0.4392156863);
+  color: #058283;
+}
+
+#companies .companies-img {
+  padding: 50px;
+}
+#companies .companies-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  #companies .companies-img {
+    padding: 20px;
+  }
+}
+#singlepage {
+  padding: 120px 0;
+}
+#singlepage h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#image-block {
+  padding: 120px 0;
+  background-color: black;
+  color: white;
+}
+#image-block h2 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+#image-block .image-block-img {
+  padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  #image-block .image-block-img {
+    padding: 20px;
+  }
 }

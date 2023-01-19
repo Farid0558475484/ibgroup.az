@@ -1,0 +1,28 @@
+#singlepage {
+  padding: 120px 0;
+  h2 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+}
+
+#image-block {
+  padding: 120px 0;
+  background-color: black;
+  color: white;
+  h2 {
+    font-size: 3rem;
+    font-weight: 800;
+  }
+  .image-block-img {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #image-block {
+    .image-block-img {
+      padding: 20px;
+    }
+  }
+}
